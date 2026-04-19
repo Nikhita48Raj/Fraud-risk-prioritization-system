@@ -9,13 +9,21 @@ Designed to simulate how real fraud teams use ML to **prioritize suspicious tran
 ## 🚀 Key Highlights
 
 ✔ Time-aware validation split (realistic deployment simulation)
+
 ✔ Advanced feature engineering for fraud signals
+
 ✔ LightGBM model optimized for imbalanced tabular data
+
 ✔ Ranking-based evaluation (Precision@K)
+
 ✔ Drift monitoring for production reliability
+
 ✔ SHAP explainability for model transparency
+
 ✔ FastAPI inference API
+
 ✔ Streamlit fraud analyst dashboard
+
 
 ---
 
@@ -63,25 +71,6 @@ These help the model capture **behavioral deviations**, a strong indicator of fr
 
 ---
 
-## 🖥️ Dashboard
-
-### Fraud Analyst Console
-
-![Dashboard](outputs\plots\dashboard.png)
-
----
-
-### Prediction Example
-
-![Prediction](outputs\plots\prediction_example.png)
-
----
-
-### SHAP Explainability
-
-![SHAP](outputs\plots\shap_summary.png)
-
----
 
 ## 🧱 Architecture
 
