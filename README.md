@@ -67,19 +67,19 @@ These help the model capture **behavioral deviations**, a strong indicator of fr
 
 ### Fraud Analyst Console
 
-![Dashboard](outputs/plots/dashboard.png)
+![Dashboard](outputs\plots\dashboard.png)
 
 ---
 
 ### Prediction Example
 
-![Prediction](outputs/plots/prediction_example.png)
+![Prediction](outputs\plots\prediction_example.png)
 
 ---
 
 ### SHAP Explainability
 
-![SHAP](outputs/plots/shap_summary.png)
+![SHAP](outputs\plots\shap_summary.png)
 
 ---
 
