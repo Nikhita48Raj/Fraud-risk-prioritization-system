@@ -9,14 +9,23 @@ This project simulates how financial institutions use ML to **rank suspicious tr
 ## 🚀 Key Highlights
 
 ✔ Time-aware validation split (prevents data leakage)
+
 ✔ Advanced feature engineering for fraud behavior signals
+
 ✔ LightGBM model optimized for tabular data
+
 ✔ Ranking-based evaluation (Precision@K)
+
 ✔ Threshold optimization for business decision making
+
 ✔ Drift monitoring to detect changing fraud patterns
+
 ✔ SHAP explainability for model transparency
+
 ✔ FastAPI inference API
+
 ✔ Streamlit fraud analyst dashboard
+
 
 ---
 
