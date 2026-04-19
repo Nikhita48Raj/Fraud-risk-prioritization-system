@@ -7,6 +7,7 @@ import lightgbm as lgb
 from sklearn.metrics import roc_auc_score, average_precision_score
 
 from src.features.build_features import fit_feature_artifacts, transform_features
+from src.utils.io_utils import save_json
 
 
 def load_data():
@@ -112,3 +113,4 @@ if __name__ == "__main__":
         json.dump(metrics, f, indent=2)
 
     save_feature_importance(model, X_train.columns.tolist())
+    save_json(artifacts, "outputs/models/feature_artifacts.json")

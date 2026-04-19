@@ -1,0 +1,17 @@
+feature,importance
+TransactionAmt,896
+card1_freq,752
+addr1,747
+P_emaildomain_freq,731
+card1,695
+card1_amt_mean,689
+card2,635
+card1_amt_std,614
+addr1_freq,590
+TransactionDT_hours,536
+dist1,534
+card2_freq,507
+TransactionDT_days,453
+card5,239
+TransactionAmt_log,198
+card3,184
