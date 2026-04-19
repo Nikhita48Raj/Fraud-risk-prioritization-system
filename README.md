@@ -8,17 +8,15 @@ This project simulates how financial institutions use ML to **rank suspicious tr
 
 ## 🚀 Key Highlights
 
-✔ Time-aware validation split (realistic deployment simulation)
-✔ Advanced feature engineering for fraud signals
-✔ LightGBM model optimized for imbalanced tabular data
+✔ Time-aware validation split (prevents data leakage)
+✔ Advanced feature engineering for fraud behavior signals
+✔ LightGBM model optimized for tabular data
 ✔ Ranking-based evaluation (Precision@K)
-✔ Drift monitoring for production reliability
+✔ Threshold optimization for business decision making
+✔ Drift monitoring to detect changing fraud patterns
 ✔ SHAP explainability for model transparency
-
 ✔ FastAPI inference API
-
 ✔ Streamlit fraud analyst dashboard
-
 
 ---
 
@@ -59,27 +57,7 @@ Key engineered signals:
 * time-based transaction patterns
 * distance anomaly features
 
-These help the model capture **behavioral deviations**, a strong indicator of fraud.
-
----
-
-## 🖥️ Dashboard
-
-### Fraud Analyst Console
-
-![Dashboard](outputs\plots\dashboard.png)
-
----
-
-### Prediction Example
-
-![Prediction](outputs\plots\prediction_example.png)
-
----
-
-### SHAP Explainability
-
-![SHAP](outputs\plots\shap_summary.png)
+These features help capture **behavioral deviations**, a strong indicator of fraud.
 
 ---
 
